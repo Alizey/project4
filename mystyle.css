@@ -155,7 +155,7 @@ img {vertical-align: middle;}
 
 /* Slideshow container */
 .slideshow-container {
- max-width: 1000px;              /*max length of image is 1000px*/
+ max-width: 1100px;              /*max length of image is 1000px*/
  position: relative;             /* arrow position is set relative to position of images thus its position is relative*/
  margin: auto;                   /* margin is set to auto for proper spacing*/
 
@@ -263,7 +263,7 @@ to {opacity: 1}
 
 /*for parallax effect of image*/
 .parallax{
-  min-height:500px;
+  min-height:800px;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -301,7 +301,7 @@ to {opacity: 1}
 
 /*images for motion detection*/
   .motion_image{
-   max-height: 800px;
+   max-height: 1200px;
    width:25%;
    margin-left:15%;
    display: inline-block;
@@ -319,7 +319,7 @@ to {opacity: 1}
 /*features are inline*/
 .features_inline{
   display:inline-block;
-  width : clamp(200px,33%,230px);      /*the max min width and value*/
+  width : clamp(20%,33%,35%);      /*the max min width and value*/
 
   
 }
