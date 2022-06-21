@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="mystyle.css">
+        <link rel="shortcut icon" type="image/png" href="img/favicon.png">
+    </head>
+    <body>
+        
+      <!--the menu bar-->
+          <nav class="nav-bar" >
+            <div class="logo">
+                <h1>Streamie</h1>
+            </div>
+            <ul class="nav-links">
+                   <li><a  class="menu-link" href="#home">Home</a></li>
+                   <li><a  class="menu-link" href="https://help.streamieapp.com/">Support</a></li>
+                   <li><a  class="menu-link" href="https://streamieapp.com/sales.html">Sales</a></li>
+                   <li><a  class="menu-link" href=https://streamieapp.com/store.html>Store</a></li>
+            </ul>
+            <!--the menu icon appears only on shorter screens-->
+            <div class="menu-icon">
+              <div class="line1"></div>
+              <div class="line2"></div>
+              <div class="line3"></div>
+            </div>
+          </nav> 
+    
+        
+
+          <!--Adding the logo and name of website-->
+    
+          <div class="text_align logo_margin" > 
+               <img src="logo.png" style=" width:150px;">
+               <h1 class="head streamie_name">Streamie</h1>
+          </div>
+
+
+     <!--images for slide show-->
+   <!--kept the bg color light grey-->
+   <!--slideshow-container name of class-->
+       
+  <div class="slideshow-container">  
+   
+    <!--mySlides and fade class for each image-->
+        <div class="mySlides fade">
+             <img src="image_1.png" style="width:100%">  <!--first image of slideshow-->
+        </div>
+        
+        <div class="mySlides fade">
+           <img src="image_3.png" style="width:100%"> <!--second image of slideshow-->
+        </div>
+        
+        <!--The arrow is a link to next or previous slide-->
+        <!--whenever the arrow is clicked plusSlides function is called -->
+        <!--the next arrow will pass +1 value to plusSlides function-->
+        <!--the prev arrow will pass -1 value to plusSlides function-->
+        <a class="prev" onclick="plusSlides(-1)">❮</a>
+        <a class="next" onclick="plusSlides(1)">❯</a>
+        
+    </div>
+     
+    </br>
+       <!--display of bullets at the bottom--> 
+       <!--whenever bullets are clicked the currentSlide function is called-->
+       <!--with taking value 1 for first image as a parameter-->
+       <!--or 2 for second image-->
+      <div class="text_align">
+          
+          <span class="dot" onclick="currentSlide(1)"></span> 
+          <span class="dot" onclick="currentSlide(2)"></span> 
+          
+      </div>
+
+
+
+    <!--for single screen multiple views section -->
+    <div class="section-1 margin_top" >
+        <div class="head_multi_views">
+             <h1 class="head head_color_white text_align">Single Screen Multiple Views</h1>
+             <p class="para text_align">Live Sreaming on  iPhone iPad Apple TV</p>
+        </div>
+       
+        <div>
+           <img class="img_responsive" src="image_4(2).png"  >
+        </div>
+
+        <!--reviews on multiscreen section-->
+        <div class="review_text">
+                    <h3>Curtis Jones</h3>
+                    <p style="color:grey" >6 June 2022</p>
+                    <br>
+                    <p class="para">
+                       Lorem ipsum dolor sit amet. Molestiae fugit et aspernatur blanditiis est iure earum? In vitae quaerat qui voluptate eaque 33 porro! 
+                    </p>
+          </div>
+    </div>
+
+
+    
+    <!--Adding the parallax effect for home usage section-->
+    <div class="section-3  parallax margin_top" style="position:relative; margin-top:4%" > 
+        <h1 class=" head parallax_image head_color_white  text_align">Watch Your Home or Business from </h1>
+    </div>
+
+
+    
+<!--Motion Notificaton event-->
+<div class=" section-1">
+  <div >
+      <h1 class=" head motion-text" >Motion Detection </h1><br>
+     <!--<p class="motion-text" style="font-size:2vw" > Your safety is our prority</p><br>--> 
+     <!--- <span>Monitor your cameras using Always-on device</span><br><br>
+      <span>Get an alert snapshot and recording when motion is detected</span>-->
+ 
+  </div>
+<!--the images of motion notification-->
+<div >
+     <img class="motion_image motion_image_responsive" src="image_7(5).jpeg" >     
+     <img class="motion_image motion_responsive" src="image_7(5).jpeg" >
+</div> 
+
+
+<div class="review_text">
+              <h3>Curtis Jones</h3>
+              <p  style="font-size:15px; color:grey">6 June 2022</p>
+              <br>
+              <p class="para">
+                 Lorem ipsum dolor sit amet. Molestiae fugit et aspernatur blanditiis est iure earum? In vitae quaerat qui voluptate eaque 33 porro! 
+              </p >
+            </div>
+ </div>
+
+
+     <!--Adding the features-->
+     <div class="text_align margin_top">
+        <h1 class="head head_color_black text_align" style=" padding:5px">Features </h1>
+ 
+ 
+        <div class="features_background">
+             <div class="features_inline">
+                <img src="running_man.png">
+                <p class="para">Motion Detection 
+             </div>
+ 
+             <div class="features_inline">
+                <img src="secureworld.png">
+                <p class="para">Security </p> 
+             </div>
+ 
+             <div class="features_inline">
+                <img src="computer.png">
+                <p class="para">Availability</p>
+             </div>
+ 
+             <div class="features_inline">
+                 <img src="webcam.png">
+                 <p class="para">Pan, tilt, zoom … </p> 
+             </div>
+ 
+             <div class="features_inline">
+                <img src="ipadwithhand.png">
+                <p class="para">Accessibilty</p>
+             </div>
+ 
+             <div class="features_inline">
+                <img src="securitybadge.png">
+               <p class="para">Protection</p>
+             </div>
+        </div>
+ 
+ 
+<!--This section is for embedding youtube video in the website -->
+<div class="section-2 video-container">
+    <iframe class="responsive-video " src="https://www.youtube.com/embed/RWZR0ySSseU" ></iframe>
+</div>
+
+  
+  
+   <!--Technical Specs-->
+  <div class="section-2  margin_top">
+      <h1 class="head  head_color_black text_align">Technical Specs</h1>
+        <p class="para">
+          Streamie can find and connect to your HomeKit, Ubiquiti UniFi Protect and ONVIF compatible cameras with just a few clicks. Alternatively, Streamie will work with nearly any RTSP camera. Pan, tilt and zoom with simple on-screen gestures (iPhone, iPad) or from the convenience of your remote control (Apple TV). Easily save snapshots & recordings to your iCloud Shared Photo Album. Listen in if your camera has a microphone. Record to a local NAS or other file server. Streamie works with H.264 (AVC) and H.265 (HEVC) video codecs and AAC, PCM (ulaw, alaw), AC3, AMR, L16, MP3 and AC3 audio codecs.
+        </p>
+        <br>
+        <p class="para"> 
+            Streamie, running on a 2021 Apple TV 4K, supports up to twenty-five concurrent 1920x1080 streams while simultaneously recording all twenty-five streams to a local NAS. Scalability depends on particular camera configurations.
+        </p>
+        <br>
+        <h2 class="text_align">
+            Skip the Cloud, Record Locally
+        </h2>
+        <p class="para">Streamie features integrated Samba (SMB) file server support, which enables on-site 24/7 recording. No cloud. No internet access required. Use your Mac, PC, Linux or one of many affordable <a style="color:black" href="https://www.bhphotovideo.com/c/product/1570595-REG/synology_diskstation_ds220_2_bay_nas.html">NAS options</a>.</p>
+  </div>
+  
+    <!--Footer-->
+    <footer class="footer_container margin_top" >
+        <a  href="https://twitter.com/streamieapp"><img class="icons" src="twitter.jpg"></a>
+        <a   href="https://www.facebook.com/streamieapp"><img class="icons" src="facebook(1).png"></a>
+        <a   href="https://www.instagram.com/accounts/login/?next=/streamieapp/"><img class="icons" src="instagram(1).png"></a>
+        <a  href="https://www.youtube.com/channel/UCPGg0XIL_0qF6tPHMUPEKRg"><img class="icons"  src="youtube(1).png"></a>
+        <a  href="https://www.reddit.com/r/Streamie/"><img  class="icons" src="redit.jpg"></a>
+        <a  href="https://www.tiktok.com/@streamieapp?lang=en&is_copy_url=1&is_from_webapp=v1"><img class="icons"  src="tiktok(1).jpg"></a>
+       
+        <a  href="https://apps.apple.com/us/app/streamie/id1420209171?ls=1"><img class="icons_app"  src="app_store(2).png"></a>
+        <br>
+        <a href="https://apps.apple.com/us/app/streamie/id1420209171?ls=1" style="color:white">Privacy Policy</a>
+    </footer>
+   
+
+
+          <script>
+                  /*This section is for slide show*/
+    //The value of slideIndex should be either 1 or 2
+    //on calling next arrow value 1 is passed to plusSlides (n=1)
+    /*the value of slideIndex will then be slideIndex=slideIndex+1 (1+1) 
+     function showSlides will be called with value 2 passed as arguments*/
+    //both if statements will be false 
+    //for loop will prevent the display of images
+    //slides[2-1] will display slide[1]
+    //this all will happen on pressing next button arrow 
+    //next time when next arrow is pressed the slideIndex value which is already 2 will be 3
+    //it will then pass through first if statement which will make slideIndex value to 1 again
+    //for loop will prevent the display of images
+    //slides[slideIndex-1].style.display = "block";  with slides[1-1] slides[0]will display first slide
+    //exactly like this the previous arrow works 
+    //currentslide is not changing the slideIndex value 
+let slideIndex = 1;
+    showSlides(slideIndex);
+
+    function plusSlides(n) {                     
+       showSlides(slideIndex += n);         
+        }
+
+    function currentSlide(n) {                             
+       showSlides(slideIndex = n);
+       }
+
+    function showSlides(n) {               
+       let i;
+       let slides = document.getElementsByClassName("mySlides");    
+       let dots = document.getElementsByClassName("dot");           
+       if (n > slides.length)      
+       {
+         slideIndex = 1           
+        }    
+       else if (n < 1)          
+       {
+         slideIndex = slides.length        
+        }
+       for (i = 0; i < slides.length; i++)          
+        {                                 
+         slides[i].style.display = "none";    
+        }
+      for (i = 0; i < dots.length; i++) 
+       {
+        dots[i].className = dots[i].className.replace(" active", "");
+       }
+      slides[slideIndex-1].style.display = "block";  
+      dots[slideIndex-1].className += " active";
+      }
+
+ 
+      /*for the responsive menubar*/
+            const navSlide = () => {
+               const nav_icon=document.querySelector(".menu-icon");      /*take the menu icon store in nav_icon var*/
+               const nav=document.querySelector(".nav-links");            /*take the list store in nav var*/
+               const navLinks=document.querySelectorAll('.nav-links li');   /*take all the links store in navlinks var*/
+        
+               nav_icon.addEventListener('click',()=>{                    /*listen to click event*/
+                   nav.classList.toggle("nav-active");                     /*to make the menu bar appear*/
+                   
+                  /*for each link*/
+                  
+                   navLinks.forEach((link,index) => {                      
+                    if(link.style.animation){                                /*for not  displaying the animation*/    
+                      link.style.animation='';
+                    }
+                    else{
+                      link.style.animation = `navLinkFade 0.5s ease forwards ${index / 7+0.4 }s`;    /*make the animation appear with proper spacing */
+                    }
+                  
+                  });
+        
+                  nav_icon.classList.toggle('toggle');
+               
+               });
+               };
+               navSlide();
+          
+          </script>
+    </body>
+</html>
