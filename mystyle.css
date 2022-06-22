@@ -263,7 +263,7 @@ to {opacity: 1}
 
 /*for parallax effect of image*/
 .parallax{
-  min-height:800px;
+  
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -273,6 +273,7 @@ to {opacity: 1}
 
 /*how and which image appears*/
 .section-3{
+  min-height: clamp(500px,700px,1201px);
   background-image: url("image_6(2).png");
   opacity:0.8;
   margin-bottom: 5%;
@@ -301,7 +302,7 @@ to {opacity: 1}
 
 /*images for motion detection*/
   .motion_image{
-   max-height: 1200px;
+   max-height: 2400px;
    width:25%;
    margin-left:15%;
    display: inline-block;
