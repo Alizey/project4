@@ -15,8 +15,8 @@
 
 :root{
 
-  --fs-head:clamp(2rem, 3vw, 3rem); /*The max font size will be 3rem and min will be 2rem keeping the viewport width 3*/
-  --fs-para:clamp(1rem,1vw,2rem);   /*The max font size will be 2rem and min will be 1rem keeping the viewport width 1*/
+  --fs-head:clamp(2rem, 3vw, 15rem); /*The max font size will be 3rem and min will be 2rem keeping the viewport width 3*/
+  --fs-para:clamp(1rem,2vw,4vw);   /*The max font size will be 2rem and min will be 1rem keeping the viewport width 1*/
   --color-black:black;            /*declaring var with value black*/
   --color-white:#fff;             /*declaring var with value white*/
   --text-align:center;
@@ -49,6 +49,9 @@
  
 }
 
+.para_1{
+  font-size: clamp(1rem,1vw,5rem);
+}
 
 /*All the text that is aligned center*/
 .text_align{
@@ -58,6 +61,15 @@
 /*margin-top equals to variable value*/
 .margin_top{
   margin-top:var(--margin_top);
+}
+
+.space{
+  text-align:center;
+  width:70%;
+  margin-left:auto;
+  margin-right: auto;
+
+  
 }
 
 /*menu bar*/
@@ -226,7 +238,7 @@ to {opacity: 1}
 .section-1{
   background-color: var(--color-black);           /*background color of single screen section*/
   padding-bottom:2%;                   /*This is for the reviews at the bottom to increase the distance of the review from bottom*/
-  width: 100%;
+
 }
 
 /*The heading of single screen multiple views section */
@@ -239,7 +251,7 @@ to {opacity: 1}
 
 /*The width of single screen image */
 .img_responsive{
-  width: 100%;
+  width: 80%;
   }
 
 
@@ -273,8 +285,8 @@ to {opacity: 1}
 
 /*how and which image appears*/
 .section-3{
-  min-height: clamp(500px,700px,1201px);
-  background-image: url("image_6(2).png");
+  min-height:1200px ;
+  background-image: url("image_6(1).png");
   opacity:0.8;
   margin-bottom: 5%;
   
@@ -302,7 +314,7 @@ to {opacity: 1}
 
 /*images for motion detection*/
   .motion_image{
-   max-height: 2400px;
+   max-height: 2500px;
    width:25%;
    margin-left:15%;
    display: inline-block;
@@ -327,16 +339,18 @@ to {opacity: 1}
 
 
 /*for spacing of the video section*/
-.section-2{
-  margin:5% 5%;
+/*.section-2{
+  margin-top:5%;
   
-   }
+   }*/
 
 /*the container for the video */
 .video-container{
   position:relative;/* the position of the container*/
-  width:95%;        /*width*/
-  padding-top:56.25%;
+  overflow: hidden;
+  padding-top:32%;
+  height:25%;
+  
 }
 
 
@@ -347,10 +361,10 @@ to {opacity: 1}
   left:0;             /*the left distance from video-container */
   bottom:0;            /*the bottom distance from video-container */
   right:0;             /*the right distance from video-container */
-  width:95%;           /*the width of video*/
-  height: 100%;        /*the height of video*/
- 
+  width:100%;           /*the width of video*/
+  height:100%;        /*the height of video*/
 }
+
 
 /*for footer*/
 
@@ -385,9 +399,9 @@ to {opacity: 1}
 
  
 
-    .parallax_image{
+   /* .parallax_image{
      left:20%;
-      }
+      }*/
   
       /*the second image of motion notification section disappears on smaller screens*/
     .motion_responsive{
@@ -449,6 +463,13 @@ to {opacity: 1}
       .nav-active{
         transform:translate(0%);
       }
+    }
+
+    @media only screen and (max-width:2000px){
+        .section-3{
+          min-height: 500px;
+        }
+    
     }
 
     
