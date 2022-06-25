@@ -167,7 +167,7 @@ img {vertical-align: middle;}
 
 /* Slideshow container */
 .slideshow-container {
- max-width: 1100px;              /*max length of image is 1000px*/
+ max-width: 800px;              /*max length of image is 1000px*/
  position: relative;             /* arrow position is set relative to position of images thus its position is relative*/
  margin: auto;                   /* margin is set to auto for proper spacing*/
 
@@ -299,9 +299,11 @@ to {opacity: 1}
   position:absolute;
   top:30%; 
   background-color:var(--color-black);
-  padding:5%;
+  padding:3%;
   font-size:var(--fs-para);
-  left:38%;
+  margin-left:20%;
+  
+  width:60%;
 
 }
 
@@ -319,7 +321,7 @@ to {opacity: 1}
 
 /*images for motion detection*/
   .motion_image{
-   aspect-ratio:a/2 ;
+   
    width:28%;
    /*margin-left:15%;*/
   /* max-height:1500px;*/
@@ -339,8 +341,8 @@ to {opacity: 1}
 /*features are inline*/
 .features_inline{
   display:inline-block;
-  width : clamp(20%,33%,35%);      /*the max min width and value*/
-
+  /*justify-content:space-around ;*/
+ width : 25%;      
   
 }
 
@@ -355,7 +357,7 @@ to {opacity: 1}
 .video-container{
   position:relative;/* the position of the container*/
   overflow: hidden;
-  padding-top:32%;
+  padding-top:35%;
   height:25%;
   
 }
@@ -393,7 +395,7 @@ to {opacity: 1}
 
 
 .icons_app{
-  width:clamp(6%, 10%, 12%);
+  width:10%;
   
 }
 
@@ -421,7 +423,8 @@ to {opacity: 1}
       /*the first image width*/
       .motion_image_responsive{
         width: 50%;
-        margin-left:25%;
+        margin-left:auto;
+        margin-right:auto;
       }
     }
 
@@ -474,6 +477,11 @@ to {opacity: 1}
         transform:translate(0%);
       }
 
+     .features_inline{
+      display: block;
+      margin:auto;
+      /*width:10%;*/
+     }
      
     }
 
@@ -492,6 +500,17 @@ to {opacity: 1}
      .motion_image{
       max-height: 500px;
      }
+
+     
+     .icons{
+      width:6%;
+    }
+
+    
+.icons_app{
+  width:14%;
+  
+}
     }
 
     
