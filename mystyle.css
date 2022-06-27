@@ -160,14 +160,20 @@
 
 
 
-.mySlides {display: none}
-img {vertical-align: middle;}
+.mySlides {
+  display: none
+}
+
+img {
+  vertical-align: middle;
+}
 
 
 
 /* Slideshow container */
 .slideshow-container {
- max-width: 800px;              /*max length of image is 1000px*/
+
+ width:clamp(380px, 60%,2500px);             
  position: relative;             /* arrow position is set relative to position of images thus its position is relative*/
  margin: auto;                   /* margin is set to auto for proper spacing*/
 
@@ -180,7 +186,7 @@ img {vertical-align: middle;}
  position: absolute;              /*the position of arrows are set relative to images*/
  top: 50%;                        /* distance from top is 50%*/
  width: auto;                     /* */
- padding: 16px;                   /*padding is space created around the content(the arrows) which is set to 16*/
+ padding: 12px;                   /*padding is space created around the content(the arrows) which is set to 16*/
  margin-top: -22px;               /**/
  color: var(--color-black);                  
                  
@@ -188,6 +194,7 @@ img {vertical-align: middle;}
  /*border-radius: 0 10px 10px 0;*/
 /* user-select: none;*/
 }
+
 
 /* Position the "next button" to the right */
 .next {
@@ -208,8 +215,8 @@ background-color: #dcdcdc;       /* on hover the color changes to light grey*/
 /* The dots/bullets/indicators */
 .dot {
 cursor: pointer;                  
-height: 15px;         /* determining the size of bullets*/
-width: 15px;              
+height:clamp(15px,2vh, 50px);        /* determining the size of bullets*/
+width:clamp(15px,2vw,50px);
 /*margin: 0 2px;*/
 background-color: #bbb;     /* the color of inactive bullet*/
 border-radius: 50%;           /*for round shape*/
@@ -490,6 +497,7 @@ to {opacity: 1}
           min-height: 500px;
         }
     
+
     }
     @media only screen and (max-width:1000px){
     .space{
@@ -515,6 +523,5 @@ to {opacity: 1}
 
     
     
-    
-      
+
      
