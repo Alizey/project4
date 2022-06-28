@@ -364,10 +364,10 @@ to {opacity: 1}
 
 /*the container for the video */
 .video-container{
-  position:relative;/* the position of the container*/
-  overflow: hidden;
-  padding-top:35%;
-  height:25%;
+  position:relative;
+  width:70%;
+  max-height:25%;
+  padding-top: 40%;
   
 }
 
@@ -493,6 +493,12 @@ to {opacity: 1}
      }
      
     }
+
+   /* .video-container{
+         padding-top:50%;
+      
+      
+    }*/
 
     @media only screen and (max-width:2000px){
         .section-3{
