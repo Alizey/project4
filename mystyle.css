@@ -191,9 +191,11 @@ img {
  color: var(--color-black);                  
                  
  /*transition: 0.6s ease;  */        /**/
- /*border-radius: 0 10px 10px 0;*/
+ border-radius: 0 10px 10px 0;
 /* user-select: none;*/
 }
+
+
 
 
 /* Position the "next button" to the right */
@@ -485,9 +487,9 @@ to {opacity: 1}
       }
 
      .features_inline{
-      display: block;
+      
       margin:auto;
-      /*width:10%;*/
+      width:40%;
      }
      
     }
@@ -521,6 +523,13 @@ to {opacity: 1}
 }
     }
 
+
+    @media only screen and (max-width:349px){
+      .features_inline{
+        display:block;
+      }
+  
+}
     
     
 
