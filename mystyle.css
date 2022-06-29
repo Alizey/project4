@@ -363,26 +363,36 @@ to {opacity: 1}
    }*/
 
 /*the container for the video */
-.video-container{
+/*.video-container{
   position:relative;
   width:70%;
-  max-height:25%;
+ 
+  
+
   padding-top: 40%;
   
-}
+}*/
 
 
 /* for video itself*/
-.responsive-video{ 
+/*.responsive-video{ 
   position: absolute; /*the position of video relative to its parent element  which is the video-container*/
-  top:0;              /*the top distance from video-container */
-  left:0;             /*the left distance from video-container */
-  bottom:0;            /*the bottom distance from video-container */
-  right:0;             /*the right distance from video-container */
-  width:100%;           /*the width of video*/
-  height:100%;        /*the height of video*/
-}
+ /* top:0;              /*the top distance from video-container */
+ /* left:0;             /*the left distance from video-container */
+ /* bottom:0;            /*the bottom distance from video-container */
+ /* right:0;             /*the right distance from video-container */
+ /* width:100%;           /*the width of video*/
+  /*height:100%;        /*the height of video*/
+/*}*/
 
+
+iframe{
+  
+  width:100%;
+  height:auto;
+  aspect-ratio: 16/9;
+  
+}
 
 /*for footer*/
 
