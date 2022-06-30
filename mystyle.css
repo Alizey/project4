@@ -16,7 +16,7 @@
 :root{
 
   --fs-head:clamp(2rem, 3vw, 15rem); /*The max font size will be 3rem and min will be 2rem keeping the viewport width 3*/
-  --fs-para:clamp(1rem,2vw,4vw);   /*The max font size will be 2rem and min will be 1rem keeping the viewport width 1*/
+  --fs-para:clamp(1rem,1vw,4vw);   /*The max font size will be 2rem and min will be 1rem keeping the viewport width 1*/
   --color-black:black;            /*declaring var with value black*/
   --color-white:#fff;             /*declaring var with value white*/
   --text-align:center;
@@ -70,6 +70,12 @@
   margin-right: auto;
 
   
+}
+
+a{
+  text-decoration: none;
+  color:var(--black);
+
 }
 
 /*menu bar*/
@@ -186,7 +192,7 @@ img {
  position: absolute;              /*the position of arrows are set relative to images*/
  top: 50%;                        /* distance from top is 50%*/
  width: auto;                     /* */
- padding: 12px;                   /*padding is space created around the content(the arrows) which is set to 16*/
+ padding: 10px;                   /*padding is space created around the content(the arrows) which is set to 12*/
  margin-top: -22px;               /**/
  color: var(--color-black);                  
                  
@@ -217,8 +223,8 @@ background-color: #dcdcdc;       /* on hover the color changes to light grey*/
 /* The dots/bullets/indicators */
 .dot {
 cursor: pointer;                  
-height:clamp(15px,1.5vh, 50px);        /* determining the size of bullets*/
-width:clamp(15px,1vw,50px);
+height:clamp(10px,2vh, 50px);        /* determining the size of bullets*/
+width:clamp(10px,1vw,50px);
 /*margin: 0 2px;*/
 background-color: #bbb;     /* the color of inactive bullet*/
 border-radius: 50%;           /*for round shape*/
