@@ -223,8 +223,8 @@ background-color: #dcdcdc;       /* on hover the color changes to light grey*/
 /* The dots/bullets/indicators */
 .dot {
 cursor: pointer;                  
-height:clamp(15px,2vh, 50px);        /* determining the size of bullets*/
-width:clamp(15px,1vw,50px);
+height:clamp(12px,2vh, 50px);        /* determining the size of bullets*/
+width:clamp(15px,1.5vw,54px);
 /*margin: 0 2px;*/
 background-color: #bbb;     /* the color of inactive bullet*/
 border-radius: 50%;           /*for round shape*/
