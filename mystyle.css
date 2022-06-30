@@ -224,7 +224,7 @@ background-color: #dcdcdc;       /* on hover the color changes to light grey*/
 .dot {
 cursor: pointer;                  
 height:clamp(12px,2vh, 50px);        /* determining the size of bullets*/
-width:clamp(15px,1.5vw,54px);
+width:clamp(15px,1.5vw,58px);
 /*margin: 0 2px;*/
 background-color: #bbb;     /* the color of inactive bullet*/
 border-radius: 50%;           /*for round shape*/
