@@ -232,9 +232,9 @@ height:clamp(12px,2vh, 50px);        /* determining the size of bullets*/
 /*transition: background-color 1s ease;   /*the color of bullet changes smoothly over 1s*/
 /*}*/
 
-.active, .dot:hover {
+/*.active, .dot:hover {
 background-color: var(--color-black);
-}
+}*/
 
 /* to make the images fade on clicking the next and previous */
 .fade {
@@ -529,6 +529,11 @@ iframe{
 }
     }
 
+    @media only screen and (max-device-width: 1366px) {
+      .parallax {
+        background-attachment: scroll;
+      }
+    }
 
       
 
